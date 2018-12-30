@@ -1,0 +1,188 @@
+/*
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
+
+font-family: 'Open Sans', sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+
+
+header {
+  /*  position: relative;*/
+  margin: 0 auto;
+  background-image: url("images/home-slide01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  height: 92vh;
+  width: 98vw;
+}
+
+/*
+header .slide {
+  max-width: 100vw;
+  height: 0 auto;
+}*/
+
+/*
+header > * {
+  position: absolute;
+}
+*/
+
+header .logo {
+  height: 10vh;
+  position: relative;
+  float: left;
+  margin: 4px 0;
+  padding: 20px 20px;
+}
+
+/*nawigacja*/
+
+nav {
+  /*  text-align: right;*/
+  float: right;
+}
+
+/*
+nav div {
+  position: relative;
+}
+*/
+
+nav ul {
+  /*  display: block;*/
+  /*  max-width: 1024px;*/
+  /*  margin: 0 auto;*/
+  list-style: none;
+  /*  clear: both;*/
+  /*  text-align: right;*/
+}
+
+nav ul li {
+  float: left;
+  margin: 30px auto;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  border-right: 2px solid white;
+  padding: 0 30px;
+  margin: 20px auto;
+  text-transform: uppercase;
+}
+
+nav ul li:nth-child(5) a {
+  border-right: none;
+  /*  padding: 0 30px;*/
+}
+
+/*nav ul li:nth-child(5) a*/
+
+/* Section */
+
+section {
+  max-width: 1028px;
+  margin: 5vh auto;
+  font-size: 0;
+}
+
+section h2,
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: darkslategray;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 4px 0 0 0;
+}
+
+section p {
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0 30px 50px 30px;
+  line-height: 180%;
+}
+
+
+section div {
+  display: inline-block;
+  width: 33.33%;
+  /*  padding: 0 auto;*/
+}
+
+section div img {
+  height: 400px;
+  /*  background-color: royalblue;*/
+  /*  margin: 10px 60px;*/
+}
+
+section img:hover {
+  background-color: aqua;
+}
+
+/*formularz*/
+
+section .formularz {
+  /*  border: 1px solid black;*/
+  /*
+  height: 60px;
+  width: 60px;
+*/
+  text-align: center;
+  height: 0 auto;
+  width: 40%;
+  box-shadow: 0 5px 50px 5px;
+}
+
+section .formularz h1,
+h2 {
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+section .formularz input {
+  border: 0;
+  padding: 0;
+  border-bottom: 2px solid gray;
+  padding: 40px 40% 10px 5px;
+  float: center;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 2px 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /*  float: center;*/
+}
+
+/* Stopka*/
+
+footer {
+  background-color: darkblue;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+}
