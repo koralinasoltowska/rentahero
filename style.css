@@ -12,16 +12,10 @@ font-family: 'Open Sans', sans-serif;*/
 html {
   /*  max-width: 100vw;*/
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
-header.dodajherosa {
-  position: relative;
-  margin: 0 auto;
-  height: 16vh;
-  /*  width: 0 auto;*/
-  background-position: top;
-}
+
 
 header {
   position: relative;
@@ -35,7 +29,13 @@ header {
   width: 98vw;
 }
 
-
+header.dodajherosa {
+  position: relative;
+  margin: 0 auto;
+  height: 16vh;
+  width: 0 auto;
+  background-position: top;
+}
 
 /*
 header .slide {
@@ -55,7 +55,7 @@ div.logo img {
   width: auto;
   position: absolute;
   float: left;
-  top: 20px;
+  top: 18px;
   left: 20px;
 
   /*
@@ -87,18 +87,18 @@ div nav ul {
 
 div nav ul li {
   float: left;
-  margin: 30px auto;
+  margin: 45px auto;
 }
 
 div nav ul li a {
-  display: inline-block;
-  top: 30px;
-  left: 50px;
+  /*    display: inline-block;*/
+  /*  top: 30px;*/
+  /*  left: 50px;*/
   color: white;
   font-size: 1rem;
   text-decoration: none;
   border-right: 1px solid white;
-  padding: 10px 30px;
+  padding: 10px 28px;
   margin: 20px auto;
   text-transform: uppercase;
 }
