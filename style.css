@@ -110,7 +110,7 @@ nav ul li:nth-child(5) a {
 
 /*nav ul li:nth-child(5) a*/
 
-/* Section */
+/* Sections */
 
 section {
   max-width: 1028px;
@@ -129,14 +129,14 @@ h1 {
 }
 
 section p {
+  /*  max-height: 50%;*/
   font-size: 0.9rem;
   text-align: center;
   margin: 0 30px 50px 30px;
   line-height: 180%;
 }
 
-
-section div {
+section.herosi div {
   display: inline-block;
   width: 33.33%;
   /*  padding: 0 auto;*/
@@ -154,39 +154,87 @@ section img:hover {
 
 /*formularz*/
 
-section .formularz {
-  /*  border: 1px solid black;*/
-  /*
-  height: 60px;
-  width: 60px;
-*/
+section.formularz {
+  /*    border: 1px solid black;*/
+  height: 80%;
+  width: 40%;
+  /*  left: 20%;*/
   text-align: center;
   height: 0 auto;
-  width: 40%;
-  box-shadow: 0 5px 50px 5px;
+  width: 38%;
+  box-shadow: 0px 4px 16px -4px rgba(0, 0, 0, 0.75);
 }
 
-section .formularz h1,
+section.formularz h1,
 h2 {
-  font-size: 20px;
-  padding: 0 0 10px 0;
+  font-size: 24px;
+  padding: 50px 0 33px 0;
+  /*  margin: auto 0;*/
+  letter-spacing: 1px;
+  text-align: center;
+  padding: center;
+  /*  padding: 0 0 10px 0;*/
+}
+
+.input {
+  margin: 20px auto 30px auto;
 }
 
 section .formularz input {
   border: 0;
-  padding: 0;
-  border-bottom: 2px solid gray;
-  padding: 40px 40% 10px 5px;
+  /*      color: #d1d1d1;*/
+  /*    padding: 0;*/
+  border-bottom: 1.4px solid #bababa;
+  padding: 5px 190px 5px 1px;
+  margin: auto 30px;
+  /*        paddi: ;ng: 10px 120px 8px 120px;*/
+  * tu o paddingi sa zmienione /////////////////
+  /*    float: centr;*/
+}
+
+section div.formularz {
+  /*  max-width: 50vh;*/
   float: center;
 }
 
-input[type=submit] {
-  background-color: blue;
+section.formularz .opisbohatera {
+
+  /*  border: 0;
+  /*      color: #d1d1d1;*/
+  /*  padding: 0;*/
+  /*  border-bottom: 1.5px solid #bababa;*/
+  padding: 5px 190px 25px 1px;
+  /*  float: right;*/
+  /*  text-align: left;*/
+}
+
+::placeholder {
+  color: #bababa;
+  opacity: 1;
+  /*  padding: 10px;*/
+  /* Firefox */
+}
+
+button.button {
+  /*  box-sizing: content-box;*/
+  display: block;
+  font-size: 1.2rem;
+  /*  float: center;*/
+  background-color: #5E94C2;
   color: white;
-  padding: 2px 2px;
+  margin: 42px auto;
   border: none;
-  border-radius: 4px;
+  border-radius: 2px;
   cursor: pointer;
+  height: 40px;
+  width: 28%;
+  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.75);
+  /*
+  margin-left: auto;
+margin-right: auto;
+*/
+  /*  text-align: center;*/
+  /*  color: #d1d1d1;*/
   /*  float: center;*/
 }
 
@@ -270,16 +318,80 @@ h2.pricehero {
   cursor: pointer;
 }
 
+/*Koszyk*/
 
-/* Stopka*/
-
-footer {
-  background-color: darkblue;
+aside {
+  padding: 20px;
 }
 
-footer p {
-  color: white;
+aside .koszykpusty {
+  position: relative;
+  border: 1px solid black;
+  width: 80vw;
+  height: 20vh;
+  margin: 0 auto;
+}
+
+aside .koszyk1 {
+  position: absolute;
+  /*
+  display: block;
+  width: 33.33%;
+*/
+  font-size: 1.7rem;
+  padding: 1px 50px 3px 1px;
+  margin: 3px 5px;
+  border-bottom: 1px solid gray;
+}
+
+aside .koszyk2 {
+  /*      position: absolute;*/
+  text-align: right;
+  top: 1%;
+  right: 1%;
+  /*    padding: 1px 1px 1px 100px;*/
+  font-size: 1.7rem;
+}
+
+.koszyk3 {
+  position: absolute;
+  font-size: 1.3rem;
+  color: gray;
+  /*  margin: 0 auto;*/
+  /*  padding: 50%;*/
+  top: 50%;
+  left: 45%;
+}
+
+.koszykpelny {
+  position: relative;
+  border: 1px solid black;
+  width: 80vw;
+  height: 56vh;
+  margin: 0 auto;
+  /*  display: block;*/
+  /*  width: 33.33%;*/
+  /*  max-width:*/
+}
+
+aside img {
+  /*    position: absolute;*/
+}
+
+
+aside div img {
+  padding: 5% 5%;
+  max-width: 30%;
   text-align: center;
-  padding: 1rem 0;
-  font-size: 0.8rem;
-}
+
+  /* Stopka*/
+  footer {
+    background-color: #2A1C51;
+  }
+
+  footer p {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1.3rem 0;
+  }
